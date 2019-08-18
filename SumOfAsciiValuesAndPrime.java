@@ -1,5 +1,5 @@
 
-public class SumOfAsciiVauesandPrime {
+public class SumOfAsciiValuesAndPrime {
 	static int odd_sum_value=0,even_sum_value=0;
 	public static void main(String[] args) {
 
