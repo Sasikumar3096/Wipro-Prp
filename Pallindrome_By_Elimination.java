@@ -9,13 +9,12 @@ class Pallindrome_By_Elimination {
 		for (char ch = 'a'; ch <= 'z'; ch++) { 
 			if (count[ch] % 2 == 1) { 
 				mid = String.valueOf(ch); 
-				count[ch--]--; 
+				count[ch--]--; 	
 			} 
-			else { 
-				for (int i = 0; i < count[ch] / 2; i++) { 
+			else 
+				for (int i = 0; i < count[ch] / 2; i++)
 					beg += ch; 
-				} 
-			} 
+			
 		} 
 		end = beg; 
 		end = reverse(end); 
