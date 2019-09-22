@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class map_sequence {
+public class Person_Token {
 		public static void main(String[] args) {
 	 
 		int input1  = 7;
